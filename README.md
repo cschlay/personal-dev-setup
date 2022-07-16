@@ -18,4 +18,17 @@ npm install
 npm run build
 ```
 
-Then you can run the scripts using `devctl`.
+Then copy a script for your operating system from `scripts` folder to `bin` e.g.
+
+```
+cp scripts/windows.ps1 bin/denv.ps1
+```
+
+You can replace `denv` with a name you like to use.
+
+## Commands
+
+
+| Name      | Arguments | Description                      |
+|-----------|-----------|----------------------------------|
+| `ssh`     |           | Opens `~/.ssh/config` in VSCode. |
