@@ -1,9 +1,9 @@
-import { openSshConfigFile } from "./ssh/openSshConfigFile";
+import { handleSsh } from "./ssh";
 import { CommandHandler } from "./types";
 
 const commands: Record<string, CommandHandler> = {
   help: () => console.error("Not Implemented"),
-  ssh: () => openSshConfigFile(),
+  ssh: handleSsh,
 };
 
 const [commandName, ...args] = process.argv.slice(2);

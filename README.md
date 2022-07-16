@@ -29,6 +29,8 @@ You can replace `denv` with a name you like to use.
 ## Commands
 
 
-| Name      | Arguments | Description                      |
-|-----------|-----------|----------------------------------|
-| `ssh`     |           | Opens `~/.ssh/config` in VSCode. |
+| Name  | Arguments      | Description                                    |
+|-------|----------------|------------------------------------------------|
+| `ssh` | `config`       | Opens `~/.ssh/config` in VSCode.               |
+| `ssh` | `new-key NAME` | Generates a new key using `ed25519` algorithm. |
+
