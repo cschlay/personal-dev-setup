@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "./bin/index.js",
+    "rootDir": "./src/",
+    "strict": true,
+  },
+}
